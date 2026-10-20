@@ -6,6 +6,11 @@ public class puntaje : MonoBehaviour
     [SerializeField] playerstats _playerstats;
    public void OnTriggerEnter2D(Collider2D Collision)
     {
-        _playerstats.sumapuntaje(10);
+        if (Collision.gameObject.tag == "Player")
+        {
+            _playerstats.sumapuntaje(10);
+            Destroy(this.gameObject);
+        }
     }
+    
 }
