@@ -21,9 +21,15 @@ public class playermovement : MonoBehaviour
     {
         if(_groundcheck.estaEnSuelo)
         {
+             _animator.SetBool("is jumping",false);
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             _cuerporigido.AddForce(Vector2.up * _fuerzasalto,ForceMode2D.Impulse );
+            _animator.SetBool("is jumping",true);
+        }
+        else
+        {
+           
         }
         }
 
