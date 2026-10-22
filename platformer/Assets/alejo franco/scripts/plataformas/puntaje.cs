@@ -8,7 +8,7 @@ public class puntaje : MonoBehaviour
     {
         if (Collision.gameObject.tag == "Player")
         {
-            _playerstats.sumapuntaje(10);
+            _playerstats.sumapuntaje(1);
             Destroy(this.gameObject);
         }
     }

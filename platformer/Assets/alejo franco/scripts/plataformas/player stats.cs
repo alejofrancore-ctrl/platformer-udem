@@ -13,6 +13,12 @@ public class playerstats : MonoBehaviour
     [SerializeField] private float _puntaje = 0f;
     [SerializeField] private GameObject _meta;
     [SerializeField] private GameObject _gameover;
+    [SerializeField] private Text _textopuntaje;
+
+    public void Start()
+    {
+        ActualizarPuntaje();
+    }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public void restarvida(int daño)
@@ -53,8 +59,10 @@ public class playerstats : MonoBehaviour
     public void sumapuntaje(int sumapunt)
     {
         _puntaje = _puntaje + sumapunt;
-        if (_puntaje >=  100.0f)
+        ActualizarPuntaje();
+        if (_puntaje >=  10.0f)
         {
+            
             habilitarmeta();
 
 
@@ -69,6 +77,10 @@ public class playerstats : MonoBehaviour
         _meta.SetActive(true);
 
 
+    }
+    public void ActualizarPuntaje()
+    {
+        _textopuntaje.text = "= " + _puntaje;
     }
    
 }
