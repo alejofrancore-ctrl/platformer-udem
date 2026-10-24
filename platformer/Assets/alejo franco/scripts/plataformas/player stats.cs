@@ -14,16 +14,36 @@ public class playerstats : MonoBehaviour
     [SerializeField] private GameObject _meta;
     [SerializeField] private GameObject _gameover;
     [SerializeField] private Text _textopuntaje;
+    
+    [SerializeField] private float _tiempoinvencible = 0f;
 
     public void Start()
     {
         ActualizarPuntaje();
+        _tiempoinvencible = 0;
+    }
+    public void Update()
+    {
+        if (_tiempoinvencible >0)
+        {
+            _tiempoinvencible -= Time.deltaTime;
+            if (_tiempoinvencible <=0)
+            {
+                _tiempoinvencible =0;
+            }
+
+        }
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public void restarvida(int daño)
     {
+        if (_tiempoinvencible > 0)
+        {
+            return;
+        }
         _vida = _vida - daño;
+        
         if (_vida == 20.0f)
         {
             _uimanager.quitarcorazon3();
@@ -81,6 +101,10 @@ public class playerstats : MonoBehaviour
     public void ActualizarPuntaje()
     {
         _textopuntaje.text = "= " + _puntaje;
+    }
+    public void SerInvencible(float duracion)
+    {
+        _tiempoinvencible = duracion;
     }
    
 }
