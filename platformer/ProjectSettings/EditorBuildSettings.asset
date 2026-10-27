@@ -6,11 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/alejo franco/scenas/titulo.unity
+    guid: 1a52437187e93524eb8becb611c475b3
+  - enabled: 1
+    path: Assets/alejo franco/scenas/instrucciones.unity
+    guid: 456a1dacf8a52b24f86d2c6bf74026c8
+  - enabled: 1
     path: Assets/alejo franco/scenas/escena alejo f.unity
     guid: bf53c1ea95acf224b8006724681671bb
   - enabled: 1
     path: Assets/alejo franco/scenas/Nivel 2.unity
     guid: 00cb8694e18e41841abfb173afdc6f29
+  - enabled: 1
+    path: Assets/alejo franco/scenas/Level Select.unity
+    guid: 644e9f29dacc8f04a808400ad9d048b2
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

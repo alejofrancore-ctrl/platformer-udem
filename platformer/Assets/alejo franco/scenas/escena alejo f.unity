@@ -11246,6 +11246,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 481903034039349696, guid: c33afc8eeb1d2c84389dd845b78a7779, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514128259124830610, guid: c33afc8eeb1d2c84389dd845b78a7779, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2611298803356761002, guid: c33afc8eeb1d2c84389dd845b78a7779, type: 3}
       propertyPath: m_SizeDelta.x
       value: -1331.2761
@@ -11266,6 +11274,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 643181064}
+    - target: {fileID: 3578558804733445563, guid: c33afc8eeb1d2c84389dd845b78a7779, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3876248463072459512, guid: c33afc8eeb1d2c84389dd845b78a7779, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5163250706567386469, guid: c33afc8eeb1d2c84389dd845b78a7779, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -11274,6 +11290,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 643181064}
+    - target: {fileID: 6258747186034041943, guid: c33afc8eeb1d2c84389dd845b78a7779, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6638805594476069394, guid: c33afc8eeb1d2c84389dd845b78a7779, type: 3}
       propertyPath: m_LocalPosition.x
       value: -210
