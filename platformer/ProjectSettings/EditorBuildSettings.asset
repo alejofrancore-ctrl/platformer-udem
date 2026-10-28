@@ -18,6 +18,15 @@ EditorBuildSettings:
     path: Assets/alejo franco/scenas/Nivel 2.unity
     guid: 00cb8694e18e41841abfb173afdc6f29
   - enabled: 1
+    path: Assets/alejo franco/scenas/nivel 3.unity
+    guid: 39ba1c9fbad344848b9d92f1697dc0d3
+  - enabled: 1
+    path: Assets/alejo franco/scenas/nivel 4.unity
+    guid: 28fff164d3c827440b2ee0390511cc3a
+  - enabled: 1
+    path: Assets/alejo franco/scenas/creditos.unity
+    guid: 3b8aa0bf764d66047b3b257f355c4cb1
+  - enabled: 1
     path: Assets/alejo franco/scenas/Level Select.unity
     guid: 644e9f29dacc8f04a808400ad9d048b2
   m_configObjects:

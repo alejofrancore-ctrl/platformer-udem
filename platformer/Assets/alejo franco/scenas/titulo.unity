@@ -284,7 +284,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 712.929, y: 327.91183}
+  m_AnchoredPosition: {x: 912.56, y: 461.62}
   m_SizeDelta: {x: 494.1419, y: 156.7614}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &70978391
@@ -330,7 +330,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 70978392}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 840725674}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: cargarEscena
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 7
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &70978392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -542,7 +554,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -726, y: 310}
+  m_AnchoredPosition: {x: -1002.7, y: 448.04}
   m_SizeDelta: {x: 313.9124, y: 183.9122}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &457097022
@@ -687,11 +699,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
+  m_ReferenceResolution: {x: 1920, y: 1080}
+  m_ScreenMatchMode: 1
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -779,8 +791,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.0025024414, y: 0}
-  m_SizeDelta: {x: 0.0051, y: 0}
+  m_AnchoredPosition: {x: 11.132202, y: 0.00048828125}
+  m_SizeDelta: {x: 22.2644, y: 0.00097656}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &774365567
 MonoBehaviour:
@@ -1279,7 +1291,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -700, y: -458.94}
+  m_AnchoredPosition: {x: -910.17, y: -458.94}
   m_SizeDelta: {x: 476.6548, y: 162.12}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1601080179
@@ -1325,7 +1337,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1601080180}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 840725674}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: cargarEscena
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 6
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1601080180
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1398,8 +1422,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 114, y: 454.66}
-  m_SizeDelta: {x: 1289.3337, y: 170.6747}
+  m_AnchoredPosition: {x: -111, y: 443.28}
+  m_SizeDelta: {x: 1018.4839, y: 174.3849}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1658474786
 MonoBehaviour:
@@ -1487,7 +1511,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -164.23541, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
