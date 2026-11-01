@@ -11,9 +11,13 @@ public class wincondition : MonoBehaviour
         {
             Time.timeScale = 0;
             _pvictoria.SetActive(true);
-            
         }
     }
 
     
+    public void AbrirVideoCreditos()
+    {
+        
+        Application.OpenURL("https://youtu.be/hK4Ec_lt0Ek");
+    }
 }

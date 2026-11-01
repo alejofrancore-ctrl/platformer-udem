@@ -8,17 +8,17 @@ public class invencibilidad : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            // 1. Activa la invencibilidad en el jugador
+           
             collision.GetComponent<playerstats>()?.SerInvencible(_duracion);
 
-            // 2. Buscamos el objeto de la música en la escena y lo encendemos
+            
             ControladorMusica musica = FindObjectOfType<ControladorMusica>();
             if (musica != null)
             {
                 musica.ReproducirMusica();
             }
 
-            // 3. Destruimos solo la estrella visual
+            
             Destroy(gameObject);
         }
     }

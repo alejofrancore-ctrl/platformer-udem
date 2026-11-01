@@ -29,6 +29,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/alejo franco/scenas/Level Select.unity
     guid: 644e9f29dacc8f04a808400ad9d048b2
+  - enabled: 1
+    path: Assets/alejo franco/scenas/titulo 1.unity
+    guid: 4d3d37a5498b6de4eaba89ab5e5d92a0
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
